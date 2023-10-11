@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Quantos anos você tem:");
+
+        System.out.println("Qantos anos você tem em meses:");
+
+        System.out.println("Quantos anos você tem em dias:");
+
+        String anos = input.nextLine();
+        String meses = input.nextLine();
+        String dias = input.nextLine();
+
+        System.out.println("Você tem " + anos +" anos!");
+        System.out.println("Você tem "+ meses +" meses!");
+        System.out.println("Você tem "+ dias +" dias!");
+
+        input.close();
+    }
+}
